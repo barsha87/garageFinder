@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, garageFinder!</string>
+    <string name="app_name">Garage Finder</string>
+    <!-- <style name= "bold_white_medium">
+    	<item name="color">#FFFFFF</item>
+    	<item name="font">Calibri</item>
+    	<item name="size">20px</item>
+    </style>-->
+</resources>

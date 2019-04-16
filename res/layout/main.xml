@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/car_wall"
+    android:padding="8px"
+    android:scrollbars="vertical"
+    >
+<TextView 
+	android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:text="Current Location is"
+    android:textColor="#ffffff"
+    android:textSize="18px"
+    android:typeface="sans">
+</TextView>
+<TextView  
+    android:id="@+id/myTextView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textStyle="italic"
+    android:textColor="#ffffff"
+    android:textSize="22px"
+    android:typeface="serif">
+</TextView>
+<TextView 
+	android:id="@+id/TextView01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:text="\nShowing Garages within 300 km"
+    android:paddingBottom="5px"
+    android:textColor="#ffffff"
+    android:textSize="18px"
+    android:typeface="sans">
+	</TextView>
+<Button 
+	android:id="@+id/Button01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:onClick="handleClick"
+	android:text="Populate Database">
+</Button>
+<ListView  
+    android:id="@+id/myList"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:background="@drawable/trans"
+    android:cacheColorHint="#00000000"
+/>
+</LinearLayout>
